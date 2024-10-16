@@ -16,5 +16,26 @@
     background:radial-gradient(rgba(0, 0, 0, 0.485),rgba(0, 0, 0, 0.856)) ;
 }
 .nav{
-    
+    position: relative;
+    height: 15vh;
+}
+.nav>img{
+    width: 180px;;
+}
+.nav>button{
+    background-color: #E70314;
+    width: 80px;
+    height: 40%;
+}
+.nav>button:hover{
+    cursor: pointer;
+    background-color: #ca000d;
+}
+.home{
+    height: 70%;
+}
+.home .fs{
+    font-size: 3.5rem;
+    font-weight: 800;
+    width: 55%;
 }
